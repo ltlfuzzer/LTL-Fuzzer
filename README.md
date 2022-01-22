@@ -193,7 +193,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 
 ## Other Contributors
 
-We use [AFLGo](https://github.com/aflgo/aflgo) as one component to direct fuzzing towards a particular program location. Thanks for AFLGo's developers. We also welcome other contributors to improve and extend LTL-Fuzzer.
+We use [AFLGo](https://github.com/aflgo/aflgo) as one component to direct fuzzing towards a particular program location. Thanks to AFLGo's developers. We also welcome other contributors to improve and extend LTL-Fuzzer.
 
 
 # License
