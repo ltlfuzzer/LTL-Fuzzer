@@ -1,0 +1,3 @@
+telnetd.c:336:WILLDISABLED
+telnetd.c:126:Overflow
+telnetd.c:129:DONT

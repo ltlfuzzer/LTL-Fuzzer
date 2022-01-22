@@ -1,0 +1,7 @@
+"ls ."
+"write "
+"\xFF"
+"\xFE"
+"\xFD"
+"\xFC"
+"\xFB"

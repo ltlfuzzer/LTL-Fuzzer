@@ -1,0 +1,1 @@
+!(! (true U oU) | (! oU U ((oZ & ! oU) & X (! oU U oP)))):iA,iB,iC,iD,iE,iF,iG,iH,iI,iJ,oP,oQ,oR,oS,oT,oU,oV,oW,oX,oY,oZ
