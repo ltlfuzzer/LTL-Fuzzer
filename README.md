@@ -66,6 +66,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 ```
   cd LTL-Fuzzer 
   mkdir build
+  cd build
   cmake ../
   make
   cd ../AFLGo
@@ -170,7 +171,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 * Instrumenting the example subject uploaded in the repo, experiment/testTelnet
 ```
   cd $LTLFuzzer/scripts/
-  ./instrument-telnet.sh $SUBJECT/target/targets.txt $SUBJECT/contiki $SUBJECT/build_dir 
+  ./instrument-telnet.sh $SUBJECT/targets/targets.txt $SUBJECT/contiki $SUBJECT/build_dir 
 ```
 
 ### Launching Fuzzing
