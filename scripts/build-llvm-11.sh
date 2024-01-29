@@ -12,3 +12,4 @@ sudo ln -s /usr/bin/clang++-11 /usr/bin/clang++
 sudo ln -s /usr/bin/llvm-ar-11 /usr/bin/llvm-ar
 sudo ln -s /usr/bin/llvm-as-11 /usr/bin/llvm-as
 sudo ln -s /usr/bin/llvm-config-11 /usr/bin/llvm-config
+sudo ln -s /usr/bin/opt-11 /usr/bin/opt
