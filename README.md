@@ -71,7 +71,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
   make
   cd ../AFLGo
   make 
-  cd llvm-mode
+  cd llvm_mode
   make
   cd ../distance_calculator
   cmake -G Ninja ./
