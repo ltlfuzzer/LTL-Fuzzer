@@ -71,7 +71,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
   make
   cd ../AFLGo
   make 
-  cd llvm-mode
+  cd llvm_mode
   make
   cd ../distance_calculator
   cmake -G Ninja ./
@@ -117,12 +117,12 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 ```
 * Specifying the subject directory and name under test:
 ```
-  export SUBJECT=$LTLFuzzer/experiment/Problem1/
+  export SUBJECT=$LTLFuzzer"experiment/Problem1/"
   export EXECName=Problem1
 ```
 * Specifying a LTL property to be checked:
 ```
-  export LTL="!(! (true U oU) | (! oU U ((oZ & ! oU) & X (! oU U oP))))"
+  export LTL='!(! (true U oU) | (! oU U ((oZ & ! oU) & X (! oU U oP))))'
 ```
 
 ### Starting Instrumentation
@@ -158,12 +158,12 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 ```
 * Specifying the subject directory and name under test:
 ```
-  export SUBJECT=$LTLFuzzer/experiment/testTelnet/
+  export SUBJECT=$LTLFuzzer"experiment/testTelnet/"
   export EXECName=telnet-server.minimal-net
 ```
 * Specifying a LTL property to be checked:
 ```
-  export LTL="!(G((WILL_DISABLED)->(X(G((DO)|(DONT))))))"
+  export LTL='!(G((WILL_DISABLED)->(X(G((DO)|(DONT))))))'
 ```
 
 ### Starting Instrumentation
