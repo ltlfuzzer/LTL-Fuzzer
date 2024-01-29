@@ -117,7 +117,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 ```
 * Specifying the subject directory and name under test:
 ```
-  export SUBJECT=$LTLFuzzer/experiment/Problem1/
+  export SUBJECT=$LTLFuzzer"experiment/Problem1/"
   export EXECName=Problem1
 ```
 * Specifying a LTL property to be checked:
@@ -158,7 +158,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 ```
 * Specifying the subject directory and name under test:
 ```
-  export SUBJECT=$LTLFuzzer/experiment/testTelnet/
+  export SUBJECT=$LTLFuzzer"experiment/testTelnet/"
   export EXECName=telnet-server.minimal-net
 ```
 * Specifying a LTL property to be checked:
