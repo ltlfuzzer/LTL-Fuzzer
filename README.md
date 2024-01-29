@@ -122,7 +122,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 ```
 * Specifying a LTL property to be checked:
 ```
-  export LTL="!(! (true U oU) | (! oU U ((oZ & ! oU) & X (! oU U oP))))"
+  export LTL='!(! (true U oU) | (! oU U ((oZ & ! oU) & X (! oU U oP))))'
 ```
 
 ### Starting Instrumentation
@@ -163,7 +163,7 @@ The paper PDF can be found at [https://arxiv.org/abs/2109.02312](https://arxiv.o
 ```
 * Specifying a LTL property to be checked:
 ```
-  export LTL="!(G((WILL_DISABLED)->(X(G((DO)|(DONT))))))"
+  export LTL='!(G((WILL_DISABLED)->(X(G((DO)|(DONT))))))'
 ```
 
 ### Starting Instrumentation
