@@ -13,13 +13,13 @@ Targets_file=$1
 Prj_dir=$2  
 Build_dir=$3
 
-export AFLGO=$LTLFuzzer/AFLGo
-export CC=$AFLGO/afl-clang-fast
-export CXX=$AFLGO/afl-clang-fast++
+export AFLGO=$LTLFuzzer"AFLGo/"
+export CC=$AFLGO"afl-clang-fast"
+export CXX=$AFLGO"afl-clang-fast++"
 
-INC=$LTLFuzzer/include
-INST_LIB=$LTLFuzzer/build/src/instrumentation/libinstrumentation.a
-ATM_LIB=$LTLFuzzer/build/src/automata/libautomata.a
+INC=$LTLFuzzer"include"
+INST_LIB=$LTLFuzzer"build/src/instrumentation/libinstrumentation.a"
+ATM_LIB=$LTLFuzzer"build/src/automata/libautomata.a"
 
 
 cd $Build_dir
